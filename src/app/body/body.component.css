@@ -1,0 +1,323 @@
+.heading-text {
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.link a {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 40px;
+    color: #002a3a;
+    font-weight: 700;
+}
+
+.img-cont img {
+    width: 300px;
+    margin: 31.250px;
+}
+
+.watch {
+    background-image: linear-gradient(233deg, #4F5259, #33383D);
+}
+
+.tracker {
+    background-image: linear-gradient(233deg, #F0EEE9, #DBD9D4);
+}
+
+.img-cont {
+    padding-top: 108px;
+    padding-bottom: 62.100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+}
+
+.row {
+    margin: 0px;
+}
+
+.smartwatch-container {
+    font-size: 18px;
+    color: white;
+    width: 220px;
+}
+
+.tracker-container {
+    color: #002a3a;
+    font-size: 18px;
+    width: 220px;
+}
+
+.smartwatch-container p, .tracker-container p {
+    margin-bottom: 40px;
+}
+
+.smartwatch-container a {
+    color: white;
+}
+
+/*  */
+
+.pixels {
+    width: 100%;
+    position: absolute;
+}
+
+.pixel-watch {
+    height: 467px;
+}
+
+.pixel-details {
+    position: relative;
+    margin-left: 102px;
+    padding: 106px 0px;
+    max-width: 414px;
+}
+
+.pixel-head  {
+    font-family: 'Proxima Nova Bold',Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    letter-spacing: .75px;
+    line-height: 46px;
+    color: #111111;
+    margin-bottom: 10px;
+    
+}
+
+.premium-hero {
+    width: 100%;
+}
+
+/*  */
+
+.premium-links {
+    position: absolute;
+}
+
+.fitbit-links {
+    padding: 67.500px 0px 94.500px 72px;
+    max-width: 350px;  
+}
+
+.fitbit-links a {
+    color: white;
+}
+
+.fitbit-links img {
+    width: 8rem;
+    margin-bottom: 20px;
+}
+
+.main {
+    font-size: 2.5rem;
+    letter-spacing: .0217em;
+    line-height: 1.217em;
+    margin-bottom: 0.8695em;
+}
+
+/*  */
+
+.richtext-text h3 {
+    margin-bottom: 0px;
+}
+
+.centered {
+    position: relative;
+    bottom: 15px;
+}
+
+/*  */
+
+.display-imgs {
+    width: 384px;
+    height: 418px;
+    padding: 8px 11px 3px 6px;
+}
+
+.display-images {
+    padding: 72px;
+}
+
+.image-cont p {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: .5px;
+    line-height: 34px;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    padding: 0 18px;
+    width: 370px;
+}
+
+.image-cont {
+    position: relative;
+}
+
+/*  */
+
+.richtext-container {
+    padding: 40px;
+}
+
+.richtext-link {
+    font-size: 20px;
+}
+
+.program-container img {
+    width: 786.906px;
+    height: 557px;
+}
+
+.program-text {
+    background: #EBEFF4;
+}
+
+.prog-text-cont {
+    max-width: 360px;
+}
+
+.prog-text-cont h3 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.2777em;
+    letter-spacing: .02083em;
+}
+
+.program-space {
+    padding: 10px 0px 40px 0px;
+    margin-bottom: 0px;
+}
+
+.program-flex {
+    padding: 114px 15px 0px 15px;
+   
+}
+
+.program-link {
+    margin-bottom: 105px;
+}
+
+/*  */
+
+.feature {
+    background-color: #efefef;
+}
+
+.feature-content {
+    margin: 0px 292px;
+    padding-top: 81.600px;
+    padding-bottom: 91.800px;
+}
+
+.feature-content h2 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: #002a3a;
+    font-weight: 700;
+}
+
+h5 {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: #002a3a;
+    font-weight: 700;
+}
+
+.blank-div {
+    margin-top: 33.150px;
+}
+
+/*  */
+
+.feature-image {
+    width: 332.344px;
+}
+
+.feature-hero {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.text-block {
+    margin-left: 10px;
+}
+
+.text-block h4 {
+    margin-top: 37.332px;
+    margin-bottom: 16.983px;
+    letter-spacing: .75px;
+    line-height: 1.277em;
+    color: #008eaa;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.text-block-top {
+    height: 203.991px;
+}
+
+.block-para {
+    font-family: 'Proxima Nova' Medium,Helvetica,Arial,sans-serif;
+    color: #576569;
+    line-height: 1.55em;
+    letter-spacing: .75px;
+    font-size: 15px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+li {
+    margin-top: 25.500px;
+}
+
+li a {
+    border-bottom: 2px solid #939c9e;
+    padding-bottom: 0px;
+}
+
+/*  */
+
+.brand-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play {
+    width: 169px;
+}
+
+.brand-footer {
+    background-color: #AAAAAA;
+    padding: 20px;
+}

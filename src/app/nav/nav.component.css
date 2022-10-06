@@ -1,0 +1,105 @@
+img {
+    width: 100%;
+}
+
+.navbar {
+    height: 102px;
+    position: absolute;
+    top: 103px;
+    width: 100%;
+    background-color: #FDF9ED;
+}
+
+.navbar:hover {
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 25%);
+    background-color: #fff;
+}
+
+.hero-text {
+    padding-left: 80px;
+    font-family: Proxima Nova Bold,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #111111;
+    max-width: 500px;
+    margin-bottom: 39px;
+    top: 50%;
+    position: absolute;
+}
+
+/* nav logos */
+
+.fitbit-new-logo-header {
+    width: 140px;
+    height: 37px;
+    margin-right: 16px;
+}
+
+.byGoogle-icon {
+    width: 105px;
+    height: 41px;
+    margin-right: 28px;
+}
+
+.account-icon {
+    width: 25px;
+    margin-right: 28px;
+    fill:#002a3a;
+}
+
+.cart-icon {
+    width: 42px;
+}
+
+/* nav */
+
+.navbar-left {
+    padding-left: 80px;
+}
+
+.navbar-right {
+    padding-right: 68px;
+}
+
+/* hidden dropdown items */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    cursor: pointer;
+}
+
+/* nav links */
+
+a {
+    text-decoration: none;
+}
+
+.links a{
+    padding: 0px 25px;
+    color: #002a3a;
+    font-weight: 700;
+    font-family: 'Proxima Nova Bold',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .0625em;
+}

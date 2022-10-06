@@ -1,0 +1,45 @@
+<svg id="logo-loading" width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        @keyframes pulse-loader {
+            0% {
+                transform: scale(1);
+            } 
+            10% {
+                transform: scale(1.10);
+            } 
+            20% {
+                transform: scale(1);
+            }
+        }
+        circle {
+            fill: #00b0b9;
+            animation: pulse-loader 1.5s linear infinite;
+            transform-origin: 50% 50%;
+            transform-box: fill-box;
+            will-change: transform;
+        }
+        circle.col-1 {animation-delay: -500ms;}
+        circle.col-2 {animation-delay: -400ms;}
+        circle.col-3 {animation-delay: -300ms;}
+        circle.col-4 {animation-delay: -200ms;}
+        circle.col-5 {animation-delay: -100ms;}
+    </style>
+    <!-- column 1 -->
+    <circle class="col-1" cx="19.2" cy="91.3" r="9.9"/>
+    <!-- column 2 -->
+    <circle class="col-2" cx="53.1" cy="56.9" r="11"/>
+    <circle class="col-2" cx="53.1" cy="91.3" r="11.5"/>
+    <circle class="col-2" cx="53.1" cy="125.7" r="11"/>
+    <!-- column 3 -->
+    <circle class="col-3" cx="87.1" cy="22.5" r="12.2"/>
+    <circle class="col-3" cx="87.1" cy="56.9" r="12.6"/>
+    <circle class="col-3" cx="87.1" cy="91.3" r="13.1"/>
+    <circle class="col-3" cx="87.1" cy="125.7" r="12.6"/>
+    <circle class="col-3" cx="87.1" cy="160.1" r="12.2"/>
+    <!-- column 4 -->
+    <circle class="col-4" cx="120.6" cy="56.9" r="14.3"/>
+    <circle class="col-4" cx="120.6" cy="91.3" r="14.8"/>
+    <circle class="col-4" cx="120.6" cy="125.7" r="14.3"/>
+    <!-- column 5 -->
+    <circle class="col-5" cx="155" cy="91.3" r="16.4"/>
+</svg>

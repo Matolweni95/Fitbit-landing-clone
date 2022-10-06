@@ -1,0 +1,22 @@
+.banner {
+    width: 100%;
+    z-index: 54874;
+    background-color: #002a3a;
+    text-align: center;
+    font-size: 10px;
+    height: 103px;
+}
+
+P {
+    color: white;
+    font-family: 'Proxima Nova Regular',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    letter-spacing: normal;
+}
+
+span {
+    color: #ef426f;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 0px;
+}
